@@ -1,7 +1,13 @@
-## Robot Package Template
+Intelligent robot programming using Robot Operating System (ROS), version: ROS 2 Humble
 
-This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
+By: Dhruvsanjay Pathak ID: 19067960 and Manraj Singh Gill 
+steps: 
+1 open terminal
+2 cd project_ws
+3 colcon-build --symlink-install 
+4 source install/setup.bash 
+5 ros2 launch project_robot rsp.launch.py
+6 open another terminal tab
+7 rviv2 for simulation 
 
-It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `project_robot` to whatever your project's name is.
-
-Note that each directory currently has at least one file in it to ensure that git tracks the files (and, consequently, that a fresh clone has direcctories present for CMake to find). These example files can be removed if required (and the directories can be removed if `CMakeLists.txt` is adjusted accordingly).
+All copyrights reserved to Trion Robotics. # project_ws
